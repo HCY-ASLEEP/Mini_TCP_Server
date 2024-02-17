@@ -1,4 +1,5 @@
 ### 完成功能
+- [x] 尝试使用非阻塞 I/O
 - [x] 封装常用的错误处理模板
 - [x] 使用 epoll I/O 多路复用
 - [x] 利用 epoll_event 的 epoll_data 的 union 特性封装一个 channel 类
