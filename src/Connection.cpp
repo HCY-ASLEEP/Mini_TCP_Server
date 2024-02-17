@@ -10,6 +10,8 @@
  */
 #include "Connection.h"
 #include <unistd.h>
+#include <assert.h>
+#include <cstring>
 #include "Buffer.h"
 #include "Channel.h"
 #include "Socket.h"

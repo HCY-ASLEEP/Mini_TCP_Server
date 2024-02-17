@@ -14,6 +14,7 @@
 #include <utility>
 #include "Channel.h"
 #include "Socket.h"
+#include <cassert>
 
 Acceptor::Acceptor(EventLoop *loop) {
   socket_ = std::make_unique<Socket>();

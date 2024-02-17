@@ -83,7 +83,7 @@ elseif (CMAKE_SYSTEM_NAME MATCHES "Linux")
 endif()
 
 # Compiler flags.
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -Wall -Wextra -std=c++17 -pthread -g")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -Wextra -std=c++17 -pthread -g")
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-unused-parameter -Wno-attributes") #TODO: remove
 # cmake -DCMAKE_BUILD_TYPE=DEBUG ..
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -glldb -fno-omit-frame-pointer -fno-optimize-sibling-calls")

@@ -9,6 +9,8 @@
  *
  */
 #include "TcpServer.h"
+#include <cassert>
+#include <memory>
 #include "EventLoop.h"
 #include "Acceptor.h"
 #include "ThreadPool.h"

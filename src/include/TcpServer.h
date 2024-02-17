@@ -13,6 +13,7 @@
 #include <functional>
 #include <unordered_map>
 #include <vector>
+#include <memory>
 
 class TcpServer {
  public:

@@ -11,6 +11,8 @@
 #include "Socket.h"
 #include <unistd.h>
 #include <fcntl.h>
+#include <assert.h>
+#include <cstring>
 #include <arpa/inet.h>
 #include <sys/ioctl.h>
 #include <sys/socket.h>

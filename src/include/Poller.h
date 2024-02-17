@@ -29,7 +29,7 @@ class Poller {
   RC UpdateChannel(Channel *ch) const;
   RC DeleteChannel(Channel *ch) const;
 
-  std::vector<Channel *> Poll(long timeout = -1) const;
+  std::vector<Channel *> Poll(long timeout = -1) ;
 
  private:
   int fd_;

@@ -10,6 +10,8 @@
  */
 #pragma once
 #include <functional>
+#include <string>
+#include <memory>
 #include "common.h"
 
 class Connection {
